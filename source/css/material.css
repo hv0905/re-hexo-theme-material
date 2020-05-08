@@ -694,7 +694,9 @@ input.mdl-button[type="submit"] {
   width: 330px;
   z-index: 1;
   position: relative;
-  background: #fff;
+  /* TODO: transparent background */
+  background: rgba(255, 255, 255, .7);
+  backdrop-filter: blur(8px);
   border-radius: 2px;
   box-sizing: border-box
 }
